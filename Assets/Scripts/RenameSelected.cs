@@ -45,4 +45,14 @@ public class RenameSelected : MonoBehaviour
             objs[i].name = "Columna_" + (i + 1);
         }
     }
+        [MenuItem("Tools/Renombrar Techo")]
+    static void RenameObjectsTecho()
+    {
+        var objs = Selection.gameObjects;
+
+        for (int i = 0; i < objs.Length; i++)
+        {
+            objs[i].name = "Techo_" + (i + 1);
+        }
+    }
 }
