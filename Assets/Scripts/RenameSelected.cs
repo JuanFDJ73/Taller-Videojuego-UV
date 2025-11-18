@@ -1,0 +1,78 @@
+using UnityEditor;
+using UnityEngine;
+
+public class RenameSelected : MonoBehaviour
+{
+    [MenuItem("Tools/Renombrar Pisos")]
+    static void RenameObjects()
+    {
+        var objs = Selection.gameObjects;
+
+        for (int i = 0; i < objs.Length; i++)
+        {
+            objs[i].name = "Piso_" + (i + 1);
+        }
+    }
+
+        [MenuItem("Tools/Renombrar Madera")]
+    static void RenameObjectsMadera()
+    {
+        var objs = Selection.gameObjects;
+
+        for (int i = 0; i < objs.Length; i++)
+        {
+            objs[i].name = "Madera_" + (i + 1);
+        }
+    }
+
+        [MenuItem("Tools/Renombrar Pared")]
+    static void RenameObjectsPared()
+    {
+        var objs = Selection.gameObjects;
+
+        for (int i = 0; i < objs.Length; i++)
+        {
+            objs[i].name = "Pared_" + (i + 1);
+        }
+    }
+        [MenuItem("Tools/Renombrar Columnas")]
+    static void RenameObjectsColumnas()
+    {
+        var objs = Selection.gameObjects;
+
+        for (int i = 0; i < objs.Length; i++)
+        {
+            objs[i].name = "Columna_" + (i + 1);
+        }
+    }
+        [MenuItem("Tools/Renombrar Techo")]
+    static void RenameObjectsTecho()
+    {
+        var objs = Selection.gameObjects;
+
+        for (int i = 0; i < objs.Length; i++)
+        {
+            objs[i].name = "Techo_" + (i + 1);
+        }
+    }
+        [MenuItem("Tools/Renombrar Vidrio")]
+    static void RenameObjectsVidrio()
+    {
+        var objs = Selection.gameObjects;
+
+        for (int i = 0; i < objs.Length; i++)
+        {
+            objs[i].name = "Vidrio_" + (i + 1);
+        }
+    }
+        [MenuItem("Tools/Renombrar Cesped")]
+    static void RenameObjectsCesped()
+    {
+        var objs = Selection.gameObjects;
+
+        for (int i = 0; i < objs.Length; i++)
+        {
+            objs[i].name = "Cesped_" + (i + 1);
+        }
+    }
+}
