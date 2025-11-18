@@ -55,4 +55,14 @@ public class RenameSelected : MonoBehaviour
             objs[i].name = "Techo_" + (i + 1);
         }
     }
+        [MenuItem("Tools/Renombrar Vidrio")]
+    static void RenameObjectsVidrio()
+    {
+        var objs = Selection.gameObjects;
+
+        for (int i = 0; i < objs.Length; i++)
+        {
+            objs[i].name = "Vidrio_" + (i + 1);
+        }
+    }
 }
