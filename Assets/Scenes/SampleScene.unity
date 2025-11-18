@@ -684,14 +684,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66906901}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5, y: 0, z: 1.5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 27.316757, y: -52.835796, z: -29.847666}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 954043011}
   - {fileID: 1249171091}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 86697157}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &69591520
 PrefabInstance:
@@ -755,7 +755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (21)
+      value: Techo_22
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1121,7 +1121,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (73)
+      value: Techo_74
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1133,6 +1133,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3211152346183760476, guid: c1523713ede562048ab132fb32d6d584, type: 3}
   m_PrefabInstance: {fileID: 85501793}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &86697156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 86697157}
+  m_Layer: 0
+  m_Name: Casa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &86697157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86697156}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.816757, y: 52.835796, z: 31.347666}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 709806572}
+  - {fileID: 66906902}
+  - {fileID: 1019141169}
+  - {fileID: 1445817805}
+  - {fileID: 140853756}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &89901566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1269,7 +1305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (83)
+      value: Techo_84
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1523,8 +1559,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140853755}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25.816757, y: -52.835796, z: -31.347666}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1619,7 +1655,7 @@ Transform:
   - {fileID: 824423241}
   - {fileID: 861833798}
   - {fileID: 485684277}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 86697157}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &148020947
 PrefabInstance:
@@ -1683,7 +1719,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (7)
+      value: Techo_7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1831,7 +1867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (4)
+      value: Techo_5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1905,7 +1941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (52)
+      value: Techo_53
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3155,7 +3191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (68)
+      value: Techo_69
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3303,7 +3339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (57)
+      value: Techo_58
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3451,7 +3487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (28)
+      value: Techo_29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3809,7 +3845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (12)
+      value: Techo_13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3883,7 +3919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (38)
+      value: Techo_39
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4031,7 +4067,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (16)
+      value: Techo_17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4245,7 +4281,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (29)
+      value: Techo_30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4845,7 +4881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (56)
+      value: Techo_57
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5452,7 +5488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (53)
+      value: Techo_54
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5526,7 +5562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (23)
+      value: Techo_24
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5600,7 +5636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (65)
+      value: Techo_66
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5674,7 +5710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (82)
+      value: Techo_83
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5970,7 +6006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (81)
+      value: Techo_82
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6044,7 +6080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (54)
+      value: Techo_55
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6118,7 +6154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (80)
+      value: Techo_81
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6192,7 +6228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (90)
+      value: Techo_91
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6344,7 +6380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (26)
+      value: Techo_27
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6418,7 +6454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (70)
+      value: Techo_71
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6640,7 +6676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (71)
+      value: Techo_72
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6714,7 +6750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (35)
+      value: Techo_36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7446,7 +7482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (14)
+      value: Techo_15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8887,6 +8923,80 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2314121174690719504, guid: c6881bf9f8b882e41b883eb8b2edad2e, type: 3}
   m_PrefabInstance: {fileID: 708569857}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &709806571
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 86697157}
+    m_Modifications:
+    - target: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.816757
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -43.835796
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -31.347666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6321390587829409961, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+      propertyPath: m_Name
+      value: Puerta
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+--- !u!4 &709806572 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3211152346183760476, guid: 623a88e2dc9eb364091c062f37ff294d, type: 3}
+  m_PrefabInstance: {fileID: 709806571}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &709900168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9023,7 +9133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (58)
+      value: Techo_59
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9171,7 +9281,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (43)
+      value: Techo_44
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9319,7 +9429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (61)
+      value: Techo_62
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9775,7 +9885,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (88)
+      value: Techo_89
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10001,7 +10111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (87)
+      value: Techo_88
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10206,7 +10316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (30)
+      value: Techo_31
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10280,7 +10390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (89)
+      value: Techo_90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10779,7 +10889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (60)
+      value: Techo_61
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10853,7 +10963,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (59)
+      value: Techo_60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11001,7 +11111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (50)
+      value: Techo_51
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11445,7 +11555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (86)
+      value: Techo_87
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11671,7 +11781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (76)
+      value: Techo_77
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11707,8 +11817,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019141168}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25.816757, y: -52.835796, z: -31.347666}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11716,7 +11826,7 @@ Transform:
   - {fileID: 2023833903}
   - {fileID: 629604537}
   - {fileID: 381249173}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 86697157}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1026398852
 PrefabInstance:
@@ -11858,7 +11968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (41)
+      value: Techo_42
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12080,7 +12190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (8)
+      value: Techo_8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12302,7 +12412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (39)
+      value: Techo_40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13174,7 +13284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (25)
+      value: Techo_26
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13326,7 +13436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (64)
+      value: Techo_65
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13630,7 +13740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (6)
+      value: Techo_6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13926,7 +14036,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (67)
+      value: Techo_68
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14000,7 +14110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (15)
+      value: Techo_16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14542,7 +14652,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (55)
+      value: Techo_56
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15153,7 +15263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (48)
+      value: Techo_49
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15227,7 +15337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (46)
+      value: Techo_47
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15379,7 +15489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (44)
+      value: Techo_45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15679,7 +15789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (49)
+      value: Techo_50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15753,7 +15863,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (24)
+      value: Techo_25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15901,7 +16011,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (84)
+      value: Techo_85
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15975,7 +16085,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (72)
+      value: Techo_73
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16403,7 +16513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (11)
+      value: Techo_12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16477,7 +16587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (79)
+      value: Techo_80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16777,7 +16887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (31)
+      value: Techo_32
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16851,7 +16961,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (20)
+      value: Techo_21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16961,8 +17071,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445817804}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25.816757, y: -52.835796, z: -31.347666}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16971,7 +17081,7 @@ Transform:
   - {fileID: 423651096}
   - {fileID: 2077160308}
   - {fileID: 896119466}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 86697157}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1446974032
 PrefabInstance:
@@ -17113,7 +17223,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (78)
+      value: Techo_79
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17433,7 +17543,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (1)
+      value: Techo_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17507,7 +17617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (42)
+      value: Techo_43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17655,7 +17765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (37)
+      value: Techo_38
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17729,7 +17839,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (47)
+      value: Techo_48
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17803,7 +17913,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (66)
+      value: Techo_67
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17951,7 +18061,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (74)
+      value: Techo_75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18025,7 +18135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (36)
+      value: Techo_37
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18247,7 +18357,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (17)
+      value: Techo_18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18800,7 +18910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (69)
+      value: Techo_70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19778,7 +19888,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (3)
+      value: Techo_4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19926,7 +20036,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (9)
+      value: Techo_9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20074,7 +20184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (13)
+      value: Techo_14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20748,7 +20858,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (75)
+      value: Techo_76
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20822,7 +20932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (22)
+      value: Techo_23
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20896,7 +21006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (77)
+      value: Techo_78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21044,7 +21154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (34)
+      value: Techo_35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21858,7 +21968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (10)
+      value: Techo_10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22154,7 +22264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (62)
+      value: Techo_63
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22228,7 +22338,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (5)
+      value: Techo_11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22516,7 +22626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (27)
+      value: Techo_28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22808,7 +22918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (18)
+      value: Techo_19
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22956,7 +23066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (33)
+      value: Techo_34
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23754,7 +23864,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo
+      value: Techo_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24691,7 +24801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (32)
+      value: Techo_33
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25065,7 +25175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (45)
+      value: Techo_46
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25240,7 +25350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (40)
+      value: Techo_41
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25388,7 +25498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (2)
+      value: Techo_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25462,7 +25572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (85)
+      value: Techo_86
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25976,7 +26086,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (51)
+      value: Techo_52
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26050,7 +26160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (63)
+      value: Techo_64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26124,7 +26234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6321390587829409961, guid: c1523713ede562048ab132fb32d6d584, type: 3}
       propertyPath: m_Name
-      value: Techo (19)
+      value: Techo_20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26361,7 +26471,4 @@ SceneRoots:
   - {fileID: 1240630264}
   - {fileID: 1247812608}
   - {fileID: 1465847327}
-  - {fileID: 66906902}
-  - {fileID: 1019141169}
-  - {fileID: 1445817805}
-  - {fileID: 140853756}
+  - {fileID: 86697157}
