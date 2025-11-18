@@ -24,4 +24,15 @@ public class RenameSelected : MonoBehaviour
             objs[i].name = "Madera_" + (i + 1);
         }
     }
+
+        [MenuItem("Tools/Renombrar Pared")]
+    static void RenameObjectsPared()
+    {
+        var objs = Selection.gameObjects;
+
+        for (int i = 0; i < objs.Length; i++)
+        {
+            objs[i].name = "Pared_" + (i + 1);
+        }
+    }
 }
