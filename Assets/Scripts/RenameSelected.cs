@@ -65,4 +65,14 @@ public class RenameSelected : MonoBehaviour
             objs[i].name = "Vidrio_" + (i + 1);
         }
     }
+        [MenuItem("Tools/Renombrar Cesped")]
+    static void RenameObjectsCesped()
+    {
+        var objs = Selection.gameObjects;
+
+        for (int i = 0; i < objs.Length; i++)
+        {
+            objs[i].name = "Cesped_" + (i + 1);
+        }
+    }
 }
