@@ -35,4 +35,14 @@ public class RenameSelected : MonoBehaviour
             objs[i].name = "Pared_" + (i + 1);
         }
     }
+        [MenuItem("Tools/Renombrar Columnas")]
+    static void RenameObjectsColumnas()
+    {
+        var objs = Selection.gameObjects;
+
+        for (int i = 0; i < objs.Length; i++)
+        {
+            objs[i].name = "Columna_" + (i + 1);
+        }
+    }
 }
